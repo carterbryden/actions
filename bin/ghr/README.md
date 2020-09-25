@@ -4,7 +4,7 @@
 
 ```workflow
 action "github release" {
-  uses = "moomerman/actions/bin/ghr@master"
+  uses = "carterbryden/actions/bin/ghr@master"
   env = {
     RELEASE_PATH = "_build/prod/rel"
     APPLICATION = "rt"
